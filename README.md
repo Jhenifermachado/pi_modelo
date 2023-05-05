@@ -1,10 +1,6 @@
 # Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+**Projeto Bola na Rede.**
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
-
-Cadastre seu projeto nesse [link](https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing).
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
@@ -19,15 +15,6 @@ Links do projeto:
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
 
 # 1. Desenvolvimento
 **1.1 Modelos de Sistemas**
