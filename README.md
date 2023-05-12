@@ -7,7 +7,7 @@ Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https
 Equipe:
 - [Essari](github.com/aluno1)
 - [Jhenifer](github.com/jhenimf)
-- [Eduardo] (github.com/)
+- [Eduardo](.com/)
   
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
@@ -17,23 +17,18 @@ Links do projeto:
 
 
 # 1. Desenvolvimento
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
 **Gerenciamento de vendas para uma loja de time**
 
-O nosso cliente, Simone, tem uma loja no centro chamada Bola na Rede e, devido a qualidade de suas camisas, ela está crescendo rapidamente. Recentemente, ela contratou mais funcionários para atendimento, caixa, vendedor, etc.
+A nossa cliente, Simone, tem uma loja no centro chamada Bola na Rede e, devido a qualidade de suas camisas, ela está crescendo rapidamente. Recentemente, ela contratou mais funcionários para atendimento, caixa, vendedor, etc.
 Assim, atualmente, ela consegue concentrar seus esforços para melhorar a gestão da loja. Para isso, ela quer abrir sua loja online para ter mais desempenho em suas vendas. Como sua intenção
 é melhorar o desempenho da loja, é muito importante que ela consiga ter
 controle, como por exemplo, de vendas e do estoque.
 
 
 # 2. Situação Problema
-
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
@@ -67,83 +62,22 @@ A loja Bola na Rede localizada no centro de Joinville, foi inaugurada no dia 10 
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
-
-**Alguns pontos importantes a se destacar são:**
-
-   **Qual o foco de ação do software**  Nosso site pretende a melhoria das compras de camisas, ajudando a melhorar o estoque e deixar mais organizado, garantindo o conforto do cliente que pode encomendar seu produto da sua casa.
+ Nosso site pretende a melhoria das compras de camisas, ajudando a melhorar o estoque e deixar mais organizado, garantindo o conforto do cliente que pode encomendar seu produto da sua casa.
 -   **Os níveis de usuário do sistema**. Todos os funcionarios e clientes terão acesso a pagina de vendas, mas apenas os funcionarios terão acesso para a pagina do estoque .
 -   **O que poderá ser feito no software**. Vendas de camisas.
 -   **Se houver mais de um nível de usuário**, Terá o usuário para clientes e um para os funcionarios.
 
 
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
-
-**4.1 O que são regras de negócio?**
-
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
-
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
-
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
-
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
-
-**4.2 Regras para a criação de regras de negócio**
-
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
-
-**4.3 Por que ter regras de negócio?**
-
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
-
-**4.4 Exemplos de regras de negócio**
-
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
-
-**4.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**4.6 Exemplos de regras de negócio com formatação**
-
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+- RN01- Para fazer pedidos no site o usuario deve estar cadastrado
+- RN02- Caso um lote de camisa tenha pelo menos 10 camisetas com defeito, pedir devolução na fabrica
+- RN03- Pagamento disponivel em pix, cartao de debito ou credito.
+- RN04- No pagamento via cartao de credito, parcelar em meses pares até 6.
+- RN05- Todos os pedidos devem ser contabilizados em uma planilha automaticamente. 
+- RN06- A cada 100 pedidos, deve se enviar automaticamente um email para o admin.
+- RN07- Garantia de 3 meses em todos os produtos da loja.
+- RN08- Troca apenas com eitqueta no prazo de 30 dias.
 
 # 5. Requisitos funcionais
 (*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
