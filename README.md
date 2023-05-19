@@ -80,176 +80,67 @@ A loja Bola na Rede localizada no centro de Joinville, foi inaugurada no dia 10 
 - RN08- Troca apenas com eitqueta no prazo de 30 dias.
 
 # 5. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-**5.1 O que são requisitos funcionais?**
+RF01 - Registro de Usuário:
 
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
+- Descrição do requisito: 
+Permitir que os usuários se cadastrem na loja online fornecendo informações como nome, endereço, e-mail e senha.
+- Dados necessários: Nome, endereço, e-mail, senha.
+Usuários: Todos os usuários.
 
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**. 
+RF02 - Busca de Camisas por Time:
 
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
-
-**5.2 Tipos de requisitos funcionais**
-
-Os requisitos funcionais podem ser classificados em:
-
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
-
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
-
-Cada requisito funcional precisa ser:
-
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
-
-**5.4 Estrutura do requisito funcional**
-
-Um requisito funcional deve ser estruturado da seguinte forma:
-
-- **Nome do requisito funcional:** descrição do
-requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**5.4.1 Nome do requisito funcional**
-
-**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
-seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo: 
-- R.F. 01 - Registro de Funcionários
-- R.F. 15 - Gerenciamento de consultas
-- R.F. 04 - Débito em conta corrente
+- Descrição do requisito: Permitir aos usuários pesquisar e visualizar camisas de times por meio de uma busca no sistema.
+- Dados necessários: Time do camisa.
+- Usuários: Todos os usuários.
  
-Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
+ RF03 - Adicionar Camisa ao Carrinho de Compras:
 
-**5.4.2 Descrição do requisito funcional**
+- Descrição do requisito: Permitir aos usuários adicionar camisas ao carrinho de compras.
+- Dados necessários: ID da camisa, quantidade desejada.
+Usuários: Todos os usuários.
 
-**Descrição do requisito:** local para descrever a função deste requisito. 
+RF04 - Processamento de Pagamento:
 
-Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
-Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
-usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
+- Descrição do requisito: Processar o pagamento das camisas selecionadas pelos usuários.
+- Dados necessários: Detalhes do pagamento (número do cartão de crédito, data de validade, código de segurança).
+- Usuários: Todos os usuários.
 
-**5.4.3 Dados necessários**
+RF05 - Atualização de Estoque:
 
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer. 
+- Descrição do requisito: Atualizar o estoque de camisas disponíveis após uma compra ser concluída.
+- Dados necessários: ID da camisa, quantidade comprada.
+- Usuários: Administradores.
 
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual). 
+RF06 - Confirmação de Compra:
 
-Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
+- escrição do requisito: Exibir aos usuários uma confirmação de compra após o processamento bem-sucedido do pagamento.
+- Dados necessários: Detalhes da compra (camisas compradas, total, data e hora da compra).
+- Usuários: Todos os usuários.
+- 
+RF07 - Recibo de Compra:
 
-**5.4.4 Usuários**
+- Descrição do requisito: Gerar um recibo de compra que pode ser baixado ou enviado por e-mail para os usuários.
+- Dados necessários: Detalhes da compra (camisas compradas, total, data e hora da compra, informações de entrega).
+- Usuários: Todos os usuários.
 
-**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
 
-**5.4.5 Exemplo de requisito funcional**
 
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso. 
-  - **Dados necessários:** login, senha, nível de permissão. 
-  - **Usuários:** todos os níveis de usuário.
 
-**5.4.6 Organização dos requisitos funcionais**
-
-As funcionalidades devem ser organizadas em: entradas, processos e saídas.
-
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso. 
  
-**Exemplos de entradas:**
-- “**Registro de usuário**” (para permitir depois seu acesso ao software).
-- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
-atendimentos).
 
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados. 
 
-**Exemplos de processos:**
-- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
-- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
 
-**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem. 
-
-**Exemplos de saídas:**
-- “Relatório de consultas por paciente”.
-- Relatório de vendas”. 
-- “Log de usuários autenticados”.
-
-Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
-negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
-
-**5.4.7 Exemplo de organização dos requisitos funcionais**
-
-(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
-
-**Entradas:**
-
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Processamento:**
-
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Saídas:**
-
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
 
 # 6. Requisitos não funcionais
 
-Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
-
-Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
-
 **6.1 Categorias de requisitos não funcionais**
-
-Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
-
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. **Esses requisitos não têm nenhum
-impacto na funcionalidade do aplicativo.** Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
 
 - Interface de Usuário
 - Confiabilidade
 - Segurança
-- Atuação
+- Desempenho
 - Manutenção
-
-Os requisitos não funcionais podem ser divididos em duas categorias:
-
-1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
-2. **Restrições:** Estas são as limitações impostas ao sistema.
-Exemplos de restrições incluem tempo, recursos e ambiente.
 
 **6.2 Vantagens dos requisitos não funcionais**
 
@@ -260,65 +151,34 @@ Os requisitos não funcionais ajudam a garantir que o sistema seja:
 3. Escalável, seguro e confiável.
 4. Fácil de usar e manter.
 
-**6.3 Exemplos de requisitos não funcionais**
-
-Aqui estão alguns exemplos de requisitos não funcionais:
-1. **Segurança**: O sistema deve ser protegido contra acesso não
-autorizado.
-2. **Atuação**: O sistema deve ser capaz de lidar com o número necessário
-de usuários sem qualquer degradação no desempenho.
-3. **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir
-conforme necessário.
-4. **Disponibilidade**: O sistema deve estar disponível quando necessário.
-5. **Manutenção**: O sistema deve ser fácil de manter e atualizar.
-6. **Portabilidade**: O sistema deve ser capaz de rodar em diferentes
-plataformas com alterações mínimas.
-7. **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos
-do usuário.
-8. **Usabilidade**: O sistema deve ser fácil de usar e entender.
-9. **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
-10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
-aplicáveis.
-
-**6.4 Exemplo de organização dos requisitos não funcionais**
-
-(_A seguir, um exemplo de organização de requisitos não funcionais._)
 
 **Requisitos não funcionais:**
 
-- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito. 
-- **R.N.F. 02 - Nome do requisito não funcional:** descrição do requisito.
+- R.N.F. 01 - Interface de Usuário: O sistema deve possuir uma interface intuitiva e fácil de usar, permitindo aos usuários navegar e comprar camisas de times de forma eficiente.
 
-**Exemplos de requisitos não funcionais:**
+- R.N.F. 02 - Confiabilidade: O sistema deve ser confiável, garantindo que as transações sejam processadas corretamente e que as informações dos clientes sejam protegidas.
 
+- R.N.F. 03 - Segurança: O sistema deve ser protegido contra acesso não autorizado, utilizando medidas de criptografia, autenticação e controle de acesso adequados.
+  
+- R.N.F. 04 - Desempenho: O sistema deve ser capaz de lidar com um grande número de usuários simultaneamente, sem comprometer a velocidade de resposta e a experiência do usuário.
+  
+- R.N.F. 05 - Manutenção: O sistema deve ser fácil de manter e atualizar, permitindo a adição de novos produtos, atualização de preços e gerenciamento de estoque de forma eficiente.
 
-**Sistema de Padaria**:
-- R.N.F. 01 - Navegador homologado: O sistema deverá ser homologado somente para o navegador Google Chrome.
-- R.N.F. 02 - Processador: É recomendado para o sistema  no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
-- R.N.F. 03 - Memória RAM: é recomendável que o sistema possua no mínimo 2GB de Ram para melhor performance.
-- R.N.F. 04 - Arquitetura: A arquitetura que será utilizada para criação do sistema será Rest.
-- R.N.F. 05 - Conexão com banco de dados: Para conexão com o banco de dados, o sistema utilizará a ferramenta de MySQL Connector.
-- R.N.F. 06- Banco de dados: O sistema será implementado com o banco de dados MySQL.
-- R.N.F. 07 - Implementação: O sistema deverá ser desenvolvido com linguagem Java, Javascript,  HTML5, CSS3 e JQuery.
-- R.N.F. 08 - Segurança: Ficará a critério do responsável do estabelecimento a segurança dos acessos ao sistema, tendo consciência das pessoas que possua permissão para acesso.
-- R.N.F. 09 - Ambiente de Desenvolvimento Integrado (IDE): Para criação do sistema, será utilizado  Eclipse.
-- R.N.F. 10 - Disponibilidade: O sistema irá atender 99% do tempo de uso, somente ocorreria problemas de cadastro, remoção, inserção ou alteração em casos de falta de rede ou energia.
-- R.N.F. 11 - Legais: O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
+Especificação dos requisitos não funcionais:
+- R.N.F. 01 - Interface de Usuário: O sistema deve possuir um design responsivo, adaptando-se a diferentes dispositivos (desktop, tablets e smartphones) para uma experiência consistente em todas as plataformas.
+- R.N.F. 02 - Confiabilidade: O sistema deve garantir a integridade dos dados do cliente, evitando perdas ou corrupção de informações.
+- R.N.F. 03 - Segurança: O sistema deve utilizar criptografia SSL/TLS para garantir a segurança das transações e proteção dos dados sensíveis dos clientes.
+- R.N.F. 04 - Desempenho: O sistema deve ter um tempo de resposta rápido, permitindo aos usuários navegar e efetuar compras sem atrasos significativos.
+- R.N.F. 05 - Manutenção: O sistema deve ser modular e fácil de atualizar, permitindo a adição de novos produtos e alterações nos preços de forma ágil.
 
-**Sistema de Ordem de Serviço:**
-- R.N.F. 01 - Navegadores homologados: o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox. 
-- R.N.F. 02 - Tecnologia Front-end: Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além das bibliotecas de jQuery e Javascript.
-- R.N.F. 03- Tecnologia Back-end: O software será desenvolvido pela linguagem de programação Java.
-- R.N.F. 04- Interoperabilidade: O banco de dados será o Mysql, com a linguagem SQL de banco, sendo todo produzido através do mysql Workbench .
-- R.N.F. 05- Forma de uso do software: O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
-- R.N.F. 06- Desempenho: Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
-- R.N.F. 07- Autenticação: Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
-- R.N.F. 08- Web Server: O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas.
-R.N.F. 08- Níveis de segurança: O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
+Arquitetura e tecnologias:
 
-**6.6 Conclusão**
+- Utilize uma arquitetura de aplicação web, como o modelo Cliente-Servidor.
+- Para o desenvolvimento do front-end, utilize HTML5, CSS3 e JavaScript, aplicando princípios de design responsivo.
+- Para o back-end, utilize uma linguagem de programação como Python ou Node.js, juntamente com um framework web, como Django ou Express.js.
+- Utilize um banco de dados relacional, como MySQL ou PostgreSQL, para armazenar as informações dos produtos e dos usuários.
+Implemente medidas de segurança, como autenticação de usuários, controle de acesso e proteção contra ataques, utilizando bibliotecas e frameworks adequados.
+- Implementação dos requisitos não funcionais:
 
-Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
-
-É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
-Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
+- Desenvolva a interface de usuário com um design atraente e responsivo, permitindo a navegação intuitiva e a visualização dos produtos de forma clara.
+- Implemente medidas de segurança, como criptografia SSL/TLS,
