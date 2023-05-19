@@ -176,7 +176,7 @@ Arquitetura e tecnologias:
 - Utilize uma arquitetura de aplicação web, como o modelo Cliente-Servidor.
 - Para o desenvolvimento do front-end, utilize HTML5, CSS3 e JavaScript, aplicando princípios de design responsivo.
 - Para o back-end, utilize uma linguagem de programação como Python ou Node.js, juntamente com um framework web, como Django ou Express.js.
-- Utilize um banco de dados relacional, como MySQL ou PostgreSQL, para armazenar as informações dos produtos e dos usuários.
+- Utilize um banco de dados relacional, como MySQL, para armazenar as informações dos produtos e dos usuários.
 Implemente medidas de segurança, como autenticação de usuários, controle de acesso e proteção contra ataques, utilizando bibliotecas e frameworks adequados.
 - Implementação dos requisitos não funcionais:
 
